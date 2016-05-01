@@ -26,32 +26,27 @@
   border-radius: 0 0 8px 4px;
 }
 
-.seven-segment[data-number='0']::before { border-color: #333 #333 transparent #333 }
-.seven-segment[data-number='0']::after  { border-color: transparent #333 #333 #333 }
+.seven-segment[data-number='0']::before { border-bottom-color: transparent; }
+.seven-segment[data-number='0']::after { border-top-color: transparent; }
 
-.seven-segment[data-number='1']::before { border-color: transparent #333 transparent transparent }
-.seven-segment[data-number='1']::after  { border-color: transparent #333 transparent transparent }
+.seven-segment[data-number='1']::before { border-top-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
+.seven-segment[data-number='1']::after { border-top-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
 
-.seven-segment[data-number='2']::before { border-color: #333 #333 #333 transparent }
-.seven-segment[data-number='2']::after  { border-color: #333 transparent #333 #333 }
+.seven-segment[data-number='2']::before { border-left-color: transparent; }
+.seven-segment[data-number='2']::after { border-right-color: transparent; }
 
-.seven-segment[data-number='3']::before { border-color: #333 #333 #333 transparent }
-.seven-segment[data-number='3']::after  { border-color: #333 #333 #333 transparent }
+.seven-segment[data-number='3']::before { border-left-color: transparent; }
+.seven-segment[data-number='3']::after { border-left-color: transparent; }
 
-.seven-segment[data-number='4']::before { border-color: transparent #333 #333 #333 }
-.seven-segment[data-number='4']::after  { border-color: #333 #333 transparent transparent }
+.seven-segment[data-number='4']::before { border-top-color: transparent; }
+.seven-segment[data-number='4']::after { border-bottom-color: transparent; border-left-color: transparent; }
 
-.seven-segment[data-number='5']::before { border-color: #333 transparent #333 #333 }
-.seven-segment[data-number='5']::after  { border-color: #333 #333 #333 transparent }
+.seven-segment[data-number='5']::before { border-right-color: transparent; }
+.seven-segment[data-number='5']::after { border-left-color: transparent; }
 
-.seven-segment[data-number='6']::before { border-color: #333 transparent #333 #333 }
-.seven-segment[data-number='6']::after  { border-color: #333 #333 #333 #333 }
+.seven-segment[data-number='6']::before { border-right-color: transparent; }
 
-.seven-segment[data-number='7']::before { border-color: #333 #333 transparent transparent }
-.seven-segment[data-number='7']::after  { border-color: transparent #333 transparent transparent }
+.seven-segment[data-number='7']::before { border-bottom-color: transparent; border-left-color: transparent; }
+.seven-segment[data-number='7']::after  { border-top-color: transparent; border-bottom-color: transparent; border-left-color: transparent; }
 
-.seven-segment[data-number='8']::before { border-color: #333 #333 #333 #333 }
-.seven-segment[data-number='8']::after  { border-color: #333 #333 #333 #333 }
-
-.seven-segment[data-number='9']::before { border-color: #333 #333 #333 #333 }
-.seven-segment[data-number='9']::after  { border-color: #333 #333 #333 transparent }
+.seven-segment[data-number='9']::after  { border-left-color: transparent; }
